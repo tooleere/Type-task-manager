@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Checkbox } from '@/components/ui/checkbox';
-import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '../ui/button';
+import { Checkbox } from '../ui/checkbox';
+import { Card, CardContent } from '../ui/card';
 import { Trash2 } from 'lucide-react';
-import type { Task } from '@/types/task';
+import type { Task } from '../../types/task';
 
 interface TaskItemProps {
   task: Task;
