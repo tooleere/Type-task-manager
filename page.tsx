@@ -1,11 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { TaskForm } from '@/components/TaskForm';
-import { TaskList } from '@/components/TaskList';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { TaskForm } from '../components/TaskForm';
+import { TaskList } from '../components/TaskList';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { CheckSquare, Loader2 } from 'lucide-react';
-import type { Task } from '@/types/task';
+import type { Task } from '../types/task';
 
 export default function Page(): JSX.Element {
   const [tasks, setTasks] = useState<Task[]>([]);
